@@ -32,7 +32,8 @@
    TODO: Use the let keyword to create a variable called myClass and assign it the string literal 'JavaScript is Awesome!'.
 */
 // * Add your code BELOW here
-
+let myClass;
+myClass = 'JavaScript is Awesome!';
 // * Don't mess with the test code below here!
 test('myClass', () => {
   expect(typeof myClass).toBe('string');
@@ -50,6 +51,7 @@ test('myClass', () => {
    TODO: Use the let keyword to create a variable called emptyString and assign it an empty string.
 */
 // * Add your code BELOW here
+let emptyString = "";
 
 // * Don't mess with the test code below here!
 test('emptyString', () => {
@@ -67,7 +69,7 @@ test('emptyString', () => {
    TODO: Use the let keyword to create a variable called petName and assign it any string with exactly 6 alphanumeric characters.
 */
 // * Add your code BELOW here
-
+let petName = 'giorgi';
 // * Don't mess with the test code below here!
 test('petName', () => {
   expect(typeof petName).toBe('string');
@@ -84,7 +86,7 @@ test('petName', () => {
    TODO: Use the const keyword to create a constant called firstLetterIsA and assign it any word that starts with a capital A.
 */
 // * Add your code BELOW here
-
+const firstLetterIsA = Android;
 // * Don't mess with the test code below here!
 test('firstLetterIsA', () => {
   expect(typeof firstLetterIsA).toBe('string');
@@ -103,7 +105,7 @@ test('firstLetterIsA', () => {
    TODO: Ensure that the character between 'one' and 'two' is an escaped horizontal tab (\t), not a space.
 */
 // * Add your code BELOW here
-
+let counting = "one\ttwo";
 // * Don't mess with the test code below here!
 test('counting', () => {
   expect(typeof counting).toBe('string');
@@ -122,7 +124,7 @@ test('counting', () => {
    TODO: Use the let keyword to create a variable called mySentence and assign it to 'Hello, ' concatenated with petName.
 */
 // * Add your code BELOW here
-
+let mySentence = 'Hello, ' + petName;
 // * Don't mess with the test code below here!
 test('mySentence', () => {
   expect(typeof mySentence).toBe('string');
@@ -142,7 +144,7 @@ test('mySentence', () => {
    TODO: that starts with 'Hello, ' and then includes petName using ${}.
 */
 // * Add your code BELOW here
-
+let helloPet = `Hello, ${petName}`;
 // * Don't mess with the test code below here!
 test('helloPet', () => {
   expect(typeof helloPet).toBe('string');
@@ -163,7 +165,8 @@ test('helloPet', () => {
    NOTE: The test ensures that thisMonth no longer equals 'I dunno!'.
 */
 // * Add your code BELOW here
-
+let thisMonth = 'I dunno!';
+thisMonth = 'September';
 // * Don't mess with the test code below here!
 test('thisMonth', () => {
   expect(typeof thisMonth).toBe('string');
