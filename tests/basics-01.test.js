@@ -138,7 +138,7 @@ test('sillyMath', () => {
 */
 // * Add your code BELOW here
 let sillyString;
-sillyString = 'hello, ' + oops;
+sillyString = 'Hello, ' + oops;
 // * Don't mess with the test code below here!
 test('sillyString', () => {
   expect(oops).toBeUndefined();
@@ -159,8 +159,8 @@ test('sillyString', () => {
 let year;
 year = 2022;
 let firstName
-firstName = 'john';
-const taxRate = 0,2;
+firstName = 'John';
+const taxRate = 0.2;
 // * Don't mess with the test code below here!
 test('year', () => {
   expect(year).toBe(2022);
